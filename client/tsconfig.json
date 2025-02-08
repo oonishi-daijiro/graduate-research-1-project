@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "jsx":"react",
+    "target": "ESNext"
+  },
+  "exclude": [
+    "./node_modules/"
+  ]
+}

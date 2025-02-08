@@ -1,0 +1,11 @@
+vpython3/
+node_modules/
+public/
+dist/
+.env
+
+modules/*/node_modules/
+modules/*/dist/
+modules/carplate2json/__pycache__/
+
+client/node_modules/

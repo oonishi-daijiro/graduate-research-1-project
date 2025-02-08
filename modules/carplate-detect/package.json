@@ -1,0 +1,19 @@
+{
+  "name": "carplate-detect",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/carplate_detect.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile":"npx tsc -d"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-rekognition": "^3.731.1",
+    "@types/node": "^22.10.7",
+    "carplate-detect": "file:",
+    "typescript": "^5.7.3"
+  }
+}
