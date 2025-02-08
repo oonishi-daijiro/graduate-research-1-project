@@ -10,7 +10,7 @@ import { carplate2jsonClient, carplate2jsonServer } from "carplate2json";
 const app = express();
 carplate2jsonServer.launch(`${process.cwd()}/vpython3/bin/python3`);
 
-const server = app.listen(80);
+const server = app.listen(3000);
 
 process.on("exit", () => {
   server.close();
