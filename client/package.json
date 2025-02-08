@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "npx webpack"
+    "compile": " npx webpack && npx npx @tailwindcss/cli -i src/style.css -o ../public/style.css"
   },
   "keywords": [],
   "author": "",

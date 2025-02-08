@@ -21,7 +21,7 @@
   "scripts": {
     "start": "node dist/app.js",
     "test-car": "tsc && echo compile done. && node dist/test/car.js",
-    "compile": "npx tsc"
+    "compile": "npx tsc -d"
   },
   "private": "true",
   "workspaces": [
